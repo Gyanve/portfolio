@@ -7,7 +7,7 @@ const Projects = () => {
       id: 1,
       title: 'Codex View',
       description: 'An edu-tech platform for students to learn tech skills',
-      image: '🛒',
+      image: '📚',
       tech: ['JavaScript', 'React', 'Bootstrap CSS'],
       featured: true
     },
@@ -15,7 +15,7 @@ const Projects = () => {
       id: 2,
       title: 'Daawat Restaurant App',
       description: 'A restaurant menu website of a local restaurant in Saharanpur',
-      image: '📋',
+      image: '🍔',
       tech: ['React', 'JavaScript', 'Tailwind CSS'],
       featured: true
     },
