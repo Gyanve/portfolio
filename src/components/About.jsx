@@ -61,7 +61,7 @@ const About = () => {
               <div className="w-80 h-80 mx-auto rounded-2xl glass-card overflow-hidden">
                 <div className="w-full h-full bg-gradient-to-br from-primary-100 to-primary-200 dark:from-primary-900 dark:to-primary-800 flex items-center justify-center">
                   <div className="text-6xl font-bold text-primary-600 dark:text-primary-400">
-                    📸
+                   <p>Coding!</p>
                   </div>
                 </div>
               </div>

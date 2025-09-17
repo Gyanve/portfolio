@@ -40,19 +40,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'john.doe@example.com',
-      link: 'mailto:john.doe@example.com'
+      value: 'gyanvesharma@gmail.com',
+      link: 'gyanvesharma@gmail.com'
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '+91-7351022634',
+      link: '+91-7351022634'
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Delhi',
       link: '#'
     }
   ]
@@ -61,20 +61,14 @@ const Contact = () => {
     {
       icon: Github,
       name: 'GitHub',
-      url: 'https://github.com',
+      url: 'https://github.com/gyanve',
       color: 'hover:text-gray-900 dark:hover:text-white'
     },
     {
       icon: Linkedin,
       name: 'LinkedIn',
-      url: 'https://linkedin.com',
+      url: 'www.linkedin.com/in/gyanve-s-b33b97189',
       color: 'hover:text-blue-600'
-    },
-    {
-      icon: Twitter,
-      name: 'Twitter',
-      url: 'https://twitter.com',
-      color: 'hover:text-blue-400'
     }
   ]
 

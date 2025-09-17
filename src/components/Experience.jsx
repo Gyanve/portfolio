@@ -12,44 +12,48 @@ const Experience = () => {
       type: 'Full-time', 
       description: '',
       achievements: [
-        'Led development of 3 major product features used by 100k+ users',
-        'Improved application performance by 40% through code optimization',
-        'Mentored 5 junior developers and conducted technical interviews',
-        'Implemented CI/CD pipelines reducing deployment time by 60%'
+        "Worked as an intern on Technologies like HTML,CSS,JavaScript.Learned about these technologies in depth"
       ],
-      tech: ['React', 'TypeScript', 'Next.js', 'GraphQL', 'AWS', 'Docker']
+      tech: ['React', 'HTML','CSS','JavaScript']
     },
     {
       id: 2,
       title: 'Frontend Developer',
-      company: 'StartupXYZ',
-      location: 'Remote',
-      period: '2021 - 2022',
+      company: 'Byjus ',
+      location: 'Chandigarh',
+      period: 'October 2022 - April 2023',
       type: 'Full-time',
       description: 'Developed responsive web applications and collaborated with design team to create intuitive user interfaces.',
       achievements: [
-        'Built 10+ responsive web applications from scratch',
-        'Collaborated with UX team to improve user engagement by 25%',
-        'Integrated third-party APIs and payment systems',
-        'Optimized bundle size resulting in 30% faster load times'
+        <li>
+        'Developed and maintained scalable, responsive user interfaces using React.js, enhancing performance and crossdevice compatibility.'
+      </li>,<li>Managed complex application state with Redux, improving data flow efficiency and reducing UI-related issues by 30%.</li>,<li>Collaborated in Agile sprints to deliver features, conduct code
+reviews, and integrate UX improvements based on user
+feedback.
+</li>
+
       ],
-      tech: ['React', 'Vue.js', 'JavaScript', 'Sass', 'Webpack', 'REST APIs']
+      tech: ['React',  'JavaScript', 'Sass',  'REST APIs']
     },
     {
       id: 3,
       title: 'Junior Frontend Developer',
-      company: 'Digital Agency Pro',
-      location: 'New York, NY',
-      period: '2020 - 2021',
+      company: 'Upwork',
+      location: 'Remote',
+      period: '2023-Present',
       type: 'Full-time',
       description: 'Worked on various client projects, learning modern web development practices and contributing to team projects.',
       achievements: [
-        'Developed 15+ client websites and web applications',
-        'Learned modern JavaScript frameworks and build tools',
-        'Collaborated with senior developers on complex features',
-        'Maintained and updated legacy codebases'
+        <li>Designed and developed dynamic, responsive web applications using HTML, CSS, JavaScript, and React.js</li>,
+        <li>Implemented efficient state management solutions (Redux,Context API) to ensure performance and application
+scalability.
+</li>,
+        <li>•Collaborated with clients to gather requirements, define project scopes, and deliver customized solutions aligned with business goals.</li>,
+        <li>•Optimized front-end performance, ensuring fast load times and seamless user experiences across devices and browsers.</li>,
+        <li>•Delivered clean, maintainable code using Git and followed Agile development practices to manage multiple projects
+effectively.</li>
       ],
-      tech: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Bootstrap', 'PHP']
+      tech: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Tailwind css', 'React js']
     }
   ]
 
@@ -217,18 +221,14 @@ const Experience = () => {
                 </div>
                 <div className="flex-1">
                   <h4 className="text-xl font-bold text-dark-900 dark:text-white mb-2">
-                    Bachelor of Science in Computer Science
+                    B.Tech
                   </h4>
                   <div className="text-primary-600 dark:text-primary-400 font-medium mb-2">
-                    University of Technology
+                    Quantum University
                   </div>
                   <div className="text-gray-600 dark:text-gray-400 text-sm mb-4">
-                    2016 - 2020 • San Francisco, CA
+                    2015-2019, Roorkee
                   </div>
-                  <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                    Focused on software engineering, web development, and human-computer interaction. 
-                    Graduated with honors and completed several projects in frontend development.
-                  </p>
                 </div>
               </div>
             </motion.div>
